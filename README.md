@@ -1,3 +1,3 @@
-# Web-Animation-Template
+# Symmetry Line Animation
 
-My template repository for creating web animations
+A symmetrical line animation written for the canvas
