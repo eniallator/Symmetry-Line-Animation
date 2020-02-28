@@ -1,8 +1,10 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
+const minDim = Math.min(window.innerWidth, window.innerHeight);
+canvas.width = canvas.height = minDim;
+
 const maxDim = { x: canvas.width, y: canvas.height };
-const minDim = Math.min(canvas.width, canvas.height);
 const minSpawnTime = minDim / 7;
 const spawnRandomness = minDim / 20;
 const maxLines = 15;
